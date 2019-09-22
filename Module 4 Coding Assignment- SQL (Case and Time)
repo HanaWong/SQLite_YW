@@ -40,6 +40,8 @@ ORDER BY LastName ASC
 
 # question 4
 # Profiling the Customers table, answer the following question.
+# Are there any columns with null values? Indicate any below. Select all that apply. 
+# (Postal Code, company, phone, fax, address or FirstName)
 
 SELECT COUNT(*)
 FROM Customers
