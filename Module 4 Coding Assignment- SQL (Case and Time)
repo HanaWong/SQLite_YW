@@ -46,6 +46,10 @@ ORDER BY LastName ASC
 SELECT COUNT(*)
 FROM Customers
 WHERE [some_column] IS NULL
+      # e.g. 
+      # SELECT COUNT(*)
+      # FROM Customers
+      # WHERE [PostalCode] IS NULL
 
 # question 5
 # Find the cities with the most customers and rank in descending order.
